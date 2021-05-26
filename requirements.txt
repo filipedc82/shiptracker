@@ -1,2 +1,5 @@
 bs4
 apscheduler==3.7.0
+requests
+csv
+datetime

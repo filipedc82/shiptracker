@@ -9,6 +9,7 @@ headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) '\
 
 def scrape_ships():
     ships = []
+    print(datetime.now())
     with open('shiplist.txt', 'r') as shiplist:
         for line in shiplist:
             # print(line, end="")
