@@ -57,3 +57,6 @@ def scrape_ships():
 
 if __name__ == '__main__':
     scrape_ships()
+
+
+#  git checkout origin/main trackingdata.csv
